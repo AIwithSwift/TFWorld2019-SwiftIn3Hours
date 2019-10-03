@@ -2,6 +2,12 @@
 
 This running sheet accompanies the session https://conferences.oreilly.com/tensorflow/tf-ca/public/schedule/detail/78523[Swift for TensorFlow in 3 hours] at TensorFlow World 2019.
 
+It's presented by:
+
+* Paris Buttfield-Addison (@parisba)
+* Tim Nugent (@the_mcjones)
+* Mars Geldard (@themartianlife)
+
 // ML programmers who want to learn new skills, deep learning engineers, Python programmers seeking to diversify, users of TensorFlow wanting to learn Swift for TensorFlow, and anyone who wants to get into deep learning or Swift
 
 // Mars Geldard, Tim Nugent, and Paris Buttfield-Addison say you’re wrong if you think Swift is just for app developers. Swift for TensorFlow provides the power of TensorFlow with all the advantages of Python (and complete access to Python libraries, as needed) and Swift—the safe, fast, incredibly capable open source programming language.
@@ -27,7 +33,11 @@ This running sheet accompanies the session https://conferences.oreilly.com/tenso
 
 === Getting Setup
 
-You can use 
+There are two ways for you to work through this material:
+
+1. *Use Google's Colaboratory* —— Colaboratory ("Colab") is an online instance of a Google-modified version of Jupyter Notebooks, and supports Swift and Swift for TensorFlow in an experimental form. This requires a solid internet connection and a Google account.
+
+2. *Use Docker, Jupyter, and a Swift kernel for Jupyter* —— if you have time, and administrative rights on your machine, this means you can do everything offline, locally on your machine.
 
 === Part 1: Swift Fundamentals
 
