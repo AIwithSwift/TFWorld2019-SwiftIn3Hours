@@ -27,9 +27,13 @@ It's presented by:
 // This is a three-hour exploration of everything you need to know to work with Swift, Swift for TensorFlow, and beyond.
 
 
-==== Agenda
+==== Table of Contents
 
-1. Swift fundamentals (60 minutes)
+* Getting Setup
+* Part 1: Swift fundamentals (60 minutes)
+* Part 2:
+* Part 3:
+* Part 4:
 
 === Getting Setup
 
@@ -41,10 +45,69 @@ There are two ways for you to work through this material:
 
 === Part 1: Swift Fundamentals
 
-TODO
-
 // Begin with a Swift programming tutorial covering how to use Swift as a programming language (Mars, Tim, and Paris use both Apple’s playgrounds, if you have a macOS device, as well as Jupyter notebooks)
 
+We're going to spend almost half our time in this tutorial on Swift as a programming language. This is because you cannot really appreciate Swift for TensorFlow without appreciating Swift. Many of the strengths of Swift for TensorFlow are instrinsically linked to the Swift programming language. 
+
+In the _"Who is this presentation for?"_ section of the presentation descripton on the event website we said:
+
+[quote, us, in the session description]
+____
+ML programmers who want to learn new skills, deep learning engineers, Python programmers seeking to diversify, users of TensorFlow wanting to learn Swift for TensorFlow, and anyone who wants to get into deep learning or Swift.
+____
+
+All of these cases imply that you don't know Swift yet. Therefore: we're going to teach you Swift.
+
+First, some programming language basics:
+
+. Open a new Swift notebook, and add the following code:
++
+[source,swift]
+----
+print("Hello, TensorFlow World!")
+----
+. Let's improve things, using variables! Add:
++
+[source,swift]
+----
+var theMessage = "Hello, TensorFlowWorld!"
+print(theMessage)
+----
+. Because we used a `var`, we can redefine it later:
++
+[source,swift]
+----
+theMessage = "It's almost Halloween!"
+print(theMessage)
+----
+. We could also have used `let` to define a constant:
++
+[source,swift]
+----
+let permanentMessage = "This message will never change!!"
+print(permanentMessage)
+----
+. That means we can't change it, and this code will error:
++
+[source,swift]
+----
+permanentMessage = "Haha!" 
+----
+
+// variables
+// strings
+// string interpolation
+// converting types
+// control flow
+// collection types
+// functions
+// closures
+// objects
+// classes
+// initialisers
+// protocols
+// error handling
+// generics
 
 === Part 2: Swift for TensorFlow and Common Use Cases
 
