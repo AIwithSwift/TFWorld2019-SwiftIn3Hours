@@ -43,6 +43,25 @@ There are two ways for you to work through this material:
 
 2. *Use Docker, Jupyter, and a Swift kernel for Jupyter* —— if you have time, and administrative rights on your machine, this means you can do everything offline, locally on your machine.
 
+==== Google Colaboratory
+
+TODO
+
+==== Docker, Jupyter, and Swift
+
+. Run the following command on your terminal:
++
+`docker run --publish 8888:8888 --cap-add SYS_PTRACE --volume /my/host/notebooks:/notebooks swift-jupyter`
+
+This might look slightly mysterious if you're not used to Docker, but it's not that bad once you unpack it:
+
+* `run` tells Docker to run the container (named at the end, `swift-jupyter`)
+* the `-publish` option maps the actual local machine's port 8888 to the container port 8888
+* the `--cap-add` option tells Docker that we'd like specific http://man7.org/linux/man-pages/man7/capabilities.7.html[Linux capabilities] added (in this case `SYS_PTRACE`)
+* the `--volume` option tells Docker that we want to map the path `/my/host/notebooks` on the actual local machine to the path `/notebooks` in Jupyter.
+
+
+
 === Part 1: Swift Fundamentals
 
 // Begin with a Swift programming tutorial covering how to use Swift as a programming language (Mars, Tim, and Paris use both Apple’s playgrounds, if you have a macOS device, as well as Jupyter notebooks)
@@ -51,7 +70,7 @@ We're going to spend almost half our time in this tutorial on Swift as a program
 
 In the _"Who is this presentation for?"_ section of the presentation descripton on the event website we said:
 
-[quote, us, in the session description]
+[quote]
 ____
 ML programmers who want to learn new skills, deep learning engineers, Python programmers seeking to diversify, users of TensorFlow wanting to learn Swift for TensorFlow, and anyone who wants to get into deep learning or Swift.
 ____
@@ -119,9 +138,18 @@ TODO
 
 === Part 3: Python and Swift (for TensorFlow)
 
-TODO
-
 // Demonstrate the use of NumPy, the ubiquitous Python library from Swift, to perform common and useful data science operations and integrate the results with Swift for TensorFlow
+
+
+. Before we can use Python in Swift, we need to `import` Python:
++
+[source,swift]
+----
+import Python
+print(Python.version)
+----
++ 
+This will print out the version of Python that Swift can access on your system.
 
 === Part 4: Big Example (title TBD)
 
