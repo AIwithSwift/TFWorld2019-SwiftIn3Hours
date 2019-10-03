@@ -1,0 +1,57 @@
+== Swift for TensorFlow
+
+This running sheet accompanies the session https://conferences.oreilly.com/tensorflow/tf-ca/public/schedule/detail/78523[Swift for TensorFlow in 3 hours] at TensorFlow World 2019.
+
+// ML programmers who want to learn new skills, deep learning engineers, Python programmers seeking to diversify, users of TensorFlow wanting to learn Swift for TensorFlow, and anyone who wants to get into deep learning or Swift
+
+// Mars Geldard, Tim Nugent, and Paris Buttfield-Addison say you’re wrong if you think Swift is just for app developers. Swift for TensorFlow provides the power of TensorFlow with all the advantages of Python (and complete access to Python libraries, as needed) and Swift—the safe, fast, incredibly capable open source programming language.
+// You’ll leave with the knowledge to use Swift, a programming language that’s great for everything from numeric computing to application development, and Swift for TensorFlow, the official TensorFlow project that brings new tooling, systems design, compilers, and features to the machine learning world, by way of Swift.
+// Outline
+// Topics covered
+// The basics of Swift and how to get started using a Jupyter notebook (yes, they fully support Swift)
+// Why Swift is a great language for scientific computing and deep learning
+// How Swift can match the performance of manually tuned assembly code in numerical computing
+// How Swift for TensorFlow works, what it’s capable of, and where it’s headed (learn the power of differential operators and being able to ask your types for their gradient)
+// Why Swift for TensorFlow is not just a port of TensorFlow to a different language (embrace differentiable programming)
+// How you can use all your favorite Python libraries, including NumPy, pickle, and beyond, easily and directly from Swift
+// Specifically, you’ll
+
+// They point to resources to build on during your journey through Swift, Swift for TensorFlow, and the future of deep learning, differentiable programming, and the future of programming languages.
+// Swift is a powerful, well supported, open, and now mature programming language. Swift for TensorFlow is brand new, solidly backed, and maturing rapidly. You can’t do everything with Swift for TensorFlow yet, but you can learn a lot and improve your thinking on how and why certain tool sets work. Learn the bleeding edge before it arrives, and pick up valuable Swift skills along the way.
+// This is a three-hour exploration of everything you need to know to work with Swift, Swift for TensorFlow, and beyond.
+
+
+==== Agenda
+
+1. Swift fundamentals (60 minutes)
+
+=== Getting Setup
+
+You can use 
+
+=== Part 1: Swift Fundamentals
+
+TODO
+
+// Begin with a Swift programming tutorial covering how to use Swift as a programming language (Mars, Tim, and Paris use both Apple’s playgrounds, if you have a macOS device, as well as Jupyter notebooks)
+
+
+=== Part 2: Swift for TensorFlow and Common Use Cases
+
+TODO
+
+// Move to a Swift for TensorFlow tutorial exploring fundamental machine learning problem solving using TensorFlow and Swift
+// Explore and demonstrate common use cases for TensorFlow using Swift
+
+
+=== Part 3: Python and Swift (for TensorFlow)
+
+TODO
+
+// Demonstrate the use of NumPy, the ubiquitous Python library from Swift, to perform common and useful data science operations and integrate the results with Swift for TensorFlow
+
+=== Part 4: Big Example (title TBD)
+
+TODO
+
+// Bring all the components together: Swift programming (in a notebook), showcasing common ML problem-solving processes using Swift for TensorFlow, and integrating Python libraries as needed in a pragmatic manner
