@@ -60,8 +60,6 @@ This might look slightly mysterious if you're not used to Docker, but it's not t
 * the `--cap-add` option tells Docker that we'd like specific http://man7.org/linux/man-pages/man7/capabilities.7.html[Linux capabilities] added (in this case `SYS_PTRACE`)
 * the `--volume` option tells Docker that we want to map the path `/my/host/notebooks` on the actual local machine to the path `/notebooks` in Jupyter.
 
-
-
 === Part 1: Swift Fundamentals
 
 // Begin with a Swift programming tutorial covering how to use Swift as a programming language (Mars, Tim, and Paris use both Apple’s playgrounds, if you have a macOS device, as well as Jupyter notebooks)
