@@ -49,7 +49,39 @@ slidenumbers: true
 3. Using Swift for TensorFlow
 4. Using everything
 
+---
+
+# [fit] Swift for TensorFlow isn't quite ready.
+
+---
+
+# [fit] Swift for TensorFlow isn't quite ready.
+## It's _almost_ ready.
+
+---
+
+# [fit] Swift for TensorFlow isn't quite ready.
+## It's _almost_ ready.
+## _**almost**_
+
+---
+
+# [fit] Swift for TensorFlow isn't quite ready.
+## It's _almost_ ready.
+## _**almost**_
+## ...Swift is **very** ready though!
+
+---
+
+# **Today's Plan**
+
+1. Swift (for programming)
+2. Swift (for TensorFlow)
+3. Using Swift for TensorFlow
+4. Using everything
+
 ^ Let's go back to our plan for a moment..
+
 
 ---
 
@@ -252,6 +284,197 @@ type(of: spaceships) // Array<String>.Type
 ---
 
 # Arrays
+
+```swift
+var favouriteNumbers: [Int] = []
+favouriteNumber[0] = 42
+```
+
+---
+
+# Dictionaries
+
+```swift
+var session = [
+                "title": "Swift for TensorFlow in 3 Hours",
+                "type": "tutorial",
+                "event": "TensorFlow World",
+                "year": 2019,
+                "location": "Santa Clara"
+            ]
+```
+
+---
+
+# Conditions with if
+
+```swift
+var check = 1
+
+if check == 1 {
+    print("Check was 1!")
+} else if check == 2 {
+    print("Check was 2!")
+} else {
+    print("Check was something else!")
+}
+```
+
+---
+
+# Multiple conditions with if
+
+```swift
+var check = 1
+var doubleCheck = 1
+
+if check == 1 && doubleCheck == 1 {
+    print("Things are good!")
+}
+```
+
+---
+
+# Loops with closed range operator
+
+```swift
+for i in 1...10 {
+    print("\(i) x 10 is \(i * 10)")
+}
+```
+
+# Loops where you don't care about the count
+
+```swift
+for _ in 1 ... 5 {
+    print("This will print five times.")
+}
+```
+
+---
+
+# Looping over data
+
+```swift
+var sciFiRomances = [
+    "Delenn and Sheridan", 
+    "Aeryn and Crichton", 
+    "Garak and Bashir"]
+
+for romance in sciFiRomances {
+    print("\(romance) is a great sci-fi romance.")
+}
+```
+
+---
+
+# Switches
+
+```swift
+let planet = "Jupiter"
+
+switch(planet) {
+    case "Mars":
+        print("Both a planet, and one of the presenters")
+    case "Pluto":
+        print("Not a planet.")
+    case "Jupiter":
+        print("Gaseous planet.")
+    case default:
+        print("No fact for you!")   
+}
+```
+
+---
+
+# Functions
+
+```swift
+func favouriteFood() {
+    print("My favourite food is pizza.")
+}
+
+favouriteFood()
+```
+
+---
+
+# Functions with parameters
+
+```swift
+func favouriteFood(name: String) {
+    print("My favourite food is \(name)")
+}
+
+favouriteFood(name: "pizza")
+```
+
+---
+
+# Functions with multiple parameters
+
+```swift
+func favouriteAlbum(name: String, artist: String) {
+    print("My favourite album is \(name) by \(artist)")
+}
+
+func favouriteAlbum(name: String) {
+    print("My favourite album is \(name)")
+}
+```
+
+---
+
+# Functions with return values
+
+```swift
+func checkFavouriteFood(name: String) -> Bool {
+    switch(name) {
+        case "pizza":
+            return true
+        case "pasta":
+            return false
+        case "burrito":
+            return true
+        default:
+            return false
+    }
+}
+```
+
+---
+
+# Optionals
+
+TODO
+
+---
+
+# Force unwrapping optionals
+
+TODO
+
+---
+
+# Implicitly unwrapped optionals
+
+TODO
+
+---
+
+# Optional chaining
+
+TODO
+
+---
+
+# nil coalescing operator
+
+TODO
+
+---
+
+# Enumerations
 
 ---
 
