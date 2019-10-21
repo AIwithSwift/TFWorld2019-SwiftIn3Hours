@@ -478,6 +478,80 @@ TODO
 
 ---
 
+# Activity
+# Basic XOR 
+
+---
+
+# Activity | Basic XOR | Model
+
+```swift
+import TensorFlow
+
+// Create a XORModel Struct
+struct XORModel: Layer
+{
+  // define three layers, each of Dense type
+  var inputLayer = Dense<Float>(inputSize: 2, outputSize: 2, activation: sigmoid)
+  var hiddenLayer = Dense<Float>(inputSize: 2, outputSize: 2, activation: sigmoid)
+  var outputLayer = Dense<Float>(inputSize: 2, outputSize: 1, activation: sigmoid)
+  
+  // procide the differentiable thingo
+  @differentiable func callAsFunction(_ input: Tensor<Float>) -> Tensor<Float>
+  {
+    return input.sequenced(through: inputLayer, hiddenLayer, outputLayer)
+  }
+}
+```
+
+---
+
+## Activity | Basic XOR | Preparing for Training
+
+```swift
+// create an instance of our XORModel Struct (defined above)
+var model = XORModel()
+
+// create an optimizer (standard gradient descent)
+let optimizer = SGD(for: model, learningRate: 0.02)
+
+// create some training data
+let trainingData: Tensor<Float> = [[0, 0], [0, 1], [1, 0], [1, 1]]
+
+// label the training data (so we know the correct outputs)
+let trainingLabels: Tensor<Float> = [[0], [1], [1], [0]]
+```
+
+---
+
+# Activity | Basic XOR | Training the Model
+
+```swift
+// train to 100,000
+for epoch in 0..<100_000
+{
+    // do the ting
+    let 𝛁model = model.gradient { model -> Tensor<Float> in
+        let ŷ = model(trainingData)
+        let loss = meanSquaredError(predicted: ŷ, expected: trainingLabels)
+        if epoch % 5000 == 0
+          print("epoch: \(epoch) loss: \(loss)")
+        return loss
+    }
+    optimizer.update(&model, along: 𝛁model)
+}
+```
+
+---
+
+# Activity | Basic XOR | Testing the Model
+
+```swift
+print(round(model.inferring(from: [[0, 0], [0, 1], [1, 0], [1, 1]])))
+```
+
+---
+
 [.code-highlight: all]
 [.code-highlight: 1]
 [.code-highlight: 3,13]
