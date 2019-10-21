@@ -1,4 +1,4 @@
-footer: @parisba / @the_mcjones /   @themartianlife / #TFWorld
+footer: @parisba / @the_mcjones / @themartianlife / #TFWorld
 theme: Zurich,6
 slidenumbers: true
 
@@ -29,6 +29,18 @@ slidenumbers: true
 2. Swift (for TensorFlow)
 3. Using Swift for TensorFlow
 4. Using everything
+
+---
+
+# Activities
+
+1. Swift Programming 
+
+2. Swift and Python
+
+3. Simple Models
+
+4. Bringing it all together
 
 ---
 
@@ -485,6 +497,13 @@ TODO
 
 # Activity | Basic XOR | Model
 
+[.code-highlight: all]
+[.code-highlight: 1]
+[.code-highlight: 4,5,16]
+[.code-highlight: 7-9]
+[.code-highlight: 12-15]
+[.code-highlight: all]
+
 ```swift
 import TensorFlow
 
@@ -508,6 +527,13 @@ struct XORModel: Layer
 
 ## Activity | Basic XOR | Preparing for Training
 
+[.code-highlight: all]
+[.code-highlight: 2]
+[.code-highlight: 5]
+[.code-highlight: 8]
+[.code-highlight: 11]
+[.code-highlight: all]
+
 ```swift
 // create an instance of our XORModel Struct (defined above)
 var model = XORModel()
@@ -523,6 +549,12 @@ let trainingLabels: Tensor<Float> = [[0], [1], [1], [0]]
 ```
 
 ---
+
+[.code-highlight: all]
+[.code-highlight: 1,2,13]
+[.code-highlight: 5-11]
+[.code-highlight: 12]
+[.code-highlight: all]
 
 # Activity | Basic XOR | Training the Model
 
@@ -552,6 +584,18 @@ print(round(model.inferring(from: [[0, 0], [0, 1], [1, 0], [1, 1]])))
 
 ---
 
+# Activity | Python Interop
+
+```swift
+import Python
+let np = Python.import("numpy")  // akin to `import numpy as np`
+let pickle = Python.import("pickle")
+let gzip = Python.import("gzip")
+```
+
+---
+
+<!-- 
 [.code-highlight: all]
 [.code-highlight: 1]
 [.code-highlight: 3,13]
@@ -580,7 +624,7 @@ let input = Tensor<Float>([[0.2, 0.8]])
 let classifier = MLPClassifier()
 let prediction = classifier.prediction(for: input)
 print(prediction)
-```
+``` -->
 
 <!-- Specifically, this tutorial will:
 
