@@ -52,6 +52,22 @@ slidenumbers: true
 - `docker build -f docker/Dockerfile -t swift-jupyter .`
 - `docker run -p 8888:8888 --cap-add SYS_PTRACE -v /my/host/notebooks:/notebooks swift-jupyter`
 
+... or use Google Colaboratory!
+
+---
+
+# Google Colaboratory
+
+## http://colab.research.google.com
+
+- `Colab` is a free, experimental data-science platform from Google
+- It's basically a customised version of Jupyter Notebooks
+- It's primarily Python
+  - but the Swift for TensorFlow team appears to have bolted Swift into it as well!
+  - it's a bit experimental, though
+  
+^ Originally, we weren't planning on using Colab for this session, but after spending a few weeks building the content we realised that, unless you have a truly powerful machine running Jupiter and the Swift Kernel locally, it really takes longer than is useful in a tutorial-setting to run any of the larger machine learning models. 
+
 ---
 
 # **Today's Plan**
@@ -94,6 +110,22 @@ slidenumbers: true
 
 ^ Let's go back to our plan for a moment..
 
+---
+
+[.build-tests: true]
+
+# Today's Plan | **Activities**
+
+1. Let's make sure everything is working
+2. Getting familiar with Swift
+3. Slightly more advanced Swift
+4. Let's meet TensorFlow
+5. Training a model 
+6. Training a bigger model
+7. Swift, meet Python
+8. Bringing it all together
+
+^ Throughout this plan, we're gonna be doing some activities, because, well, this is a tutorial! Our activities will be.... [advances one by one]. We may, or may not, get all the way through this.
 
 ---
 
@@ -114,6 +146,21 @@ slidenumbers: true
 
 ---
 
+# Activity 1 | Let's make sure everything is working...
+
+- We need to make sure everything is working!
+  - Visit TODO_URL and open **TFW19-S4TF-Activity1.ipynb**
+- Run it by clicking the ▶️ button next to the first code cell.
+- Modify it to:
+  - TODO
+  
+---
+
+# OK, so, Swift.
+
+^ Let's get back to Swift.
+
+---
 # What's to learn? (Part 1)
 
 * Variables and constants
@@ -456,6 +503,21 @@ func checkFavouriteFood(name: String) -> Bool {
 
 ---
 
+# Activity 2 | Getting Familiar with Swift
+
+- Visit TODO_URL and open **TFW19-S4TF-Activity2.ipynb**
+- Create:
+  - some variables and constants, of different types
+  - perform some arithmetic
+  - define an array, or other collection type
+  - loop through, or switch on, something
+  - a function
+
+
+^ To recap, we're going to take a moment to let you work through some Swift, and ask us any questions you might have on the language. [~5 minute activity]
+
+---
+
 # Optionals
 
 TODO
@@ -490,12 +552,24 @@ TODO
 
 ---
 
-# Activity
-# Basic XOR 
+# Activity 3 | Slightly more advanced Swift
+
+^ TODO
 
 ---
 
-# Activity | Basic XOR | Model
+# Activity 4 | Let's meet TensorFlow
+
+^ TODO
+
+---
+
+# Activity 5 | Training a model 
+
+ 
+---
+
+# Activity | Training a model | The Model
 
 [.code-highlight: all]
 [.code-highlight: 1]
