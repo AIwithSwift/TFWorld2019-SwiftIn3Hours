@@ -19,14 +19,16 @@ THIS DOCUMENT IS FOR PRESENTERS NOT ATTENDEES
 	- we're gonna use the Swift for TensorFlow toolchain, not Apple's Swift toolchain
 	- quick overview of Jupyter 
 	- quick overview of Google Colab
-	- ACTIVITY 1: Let's make sure everything is working
-
+	- ACTIVITY 1: Make sure everything is working
+		- Ask everyone to open Colab
+		- TODO: Have a simple test notebook to make sure it's working
+		
 * Swift Programming (~60 minutes)
 	- step through the TFWorld2019_SwiftProgramming Playground (but in Jupyter) and show how Swift programming works.
 		- attendees have all the code provided up front, and can choose to step through or code as we go
 		- we'll stop at several (TODO TBD) points for an ACTIVITY:
-			- ACTIVITY 2: Getting familiar with Swift
-			- ACTIVITY 3: Slightly more advanced Swift
+			- ACTIVITY 2: Welcome to Swift
+			- ACTIVITY 3: Getting Familiar with Swift
 
 * Recap/summary of Swift Programming (5 minutes)
 	- what have we learned?

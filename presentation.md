@@ -19,16 +19,10 @@ slidenumbers: true
 
 ---
 
-![inline](presentation_images/docker.jpg)
-
----
-
 # **Today's Plan**
 
 1. Swift (for programming)
 2. Swift (for TensorFlow)
-3. Using Swift for TensorFlow
-4. Using everything
 
 ---
 
@@ -52,19 +46,25 @@ slidenumbers: true
 - `docker build -f docker/Dockerfile -t swift-jupyter .`
 - `docker run -p 8888:8888 --cap-add SYS_PTRACE -v /my/host/notebooks:/notebooks swift-jupyter`
 
-... or use Google Colaboratory!
+... so much Docker.
+
+---
+
+![inline](presentation_images/docker.jpg)
+
+^... or use Google Colaboratory!
 
 ---
 
 # Google Colaboratory
-
-## http://colab.research.google.com
-
-- `Colab` is a free, experimental data-science platform from Google
+ 
+- `Colab`[1] is a free, experimental data-science platform from Google
 - It's basically a customised version of Jupyter Notebooks
 - It's primarily Python
   - but the Swift for TensorFlow team appears to have bolted Swift into it as well!
   - it's a bit experimental, though
+
+^[1]: http://colab.research.google.com
   
 ^ Originally, we weren't planning on using Colab for this session, but after spending a few weeks building the content we realised that, unless you have a truly powerful machine running Jupiter and the Swift Kernel locally, it really takes longer than is useful in a tutorial-setting to run any of the larger machine learning models. 
 
@@ -74,8 +74,6 @@ slidenumbers: true
 
 1. Swift (for programming)
 2. Swift (for TensorFlow)
-3. Using Swift for TensorFlow
-4. Using everything
 
 ---
 
@@ -105,8 +103,6 @@ slidenumbers: true
 
 1. Swift (for programming)
 2. Swift (for TensorFlow)
-3. Using Swift for TensorFlow
-4. Using everything
 
 ^ Let's go back to our plan for a moment..
 
@@ -116,14 +112,13 @@ slidenumbers: true
 
 # Today's Plan | **Activities**
 
-1. Let's make sure everything is working
-2. Getting familiar with Swift
-3. Slightly more advanced Swift
-4. Let's meet TensorFlow
-5. Training a model 
-6. Training a bigger model
-7. Swift, meet Python
-8. Bringing it all together
+* Activity 1: Making sure everything is working
+* Activity 2: Getting familiar with Swift
+* Activity 3: Slightly more advanced Swift
+* Activity 4: Meet TensorFlow — Training a Model
+* Activity 5: Swift and Python
+* Activity 6: Building a GAN
+* Activity 7: A little more Python
 
 ^ Throughout this plan, we're gonna be doing some activities, because, well, this is a tutorial! Our activities will be.... [advances one by one]. We may, or may not, get all the way through this.
 
