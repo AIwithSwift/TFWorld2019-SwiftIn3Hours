@@ -108,8 +108,6 @@ slidenumbers: true
 
 ---
 
-[.build-tests: true]
-
 # Today's Plan | **Activities**
 
 * Activity 1: Making sure everything is working
