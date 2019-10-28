@@ -10,7 +10,7 @@ You won't need to go beyond this quickstart section if everything here works.
 
 2. Add the shared `TFWorld2019` folder to _your_ Google Drive by clicking the dropdown next to the folders name, and then clicking "Add to My Drive", as shown below.
 
-![](presentation_images/add-to-drive.png)
+<img src="presentation_images/add-to-drive.png" width=50% />
 
 ### To create a blank Swift notebook in Google Colab
 
