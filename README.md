@@ -77,6 +77,7 @@ The Swift APIs for TensorFlow:
 
 The Differentiable Programming Proposal:
 
+* https://docs.google.com/document/d/1bPepWLfRQa6CtXqKA8CDQ87uZHixNav-TFjLSisuKag/edit
 * https://forums.swift.org/t/differentiable-programming-mega-proposal/28547
 * https://github.com/dan-zheng/swift/blob/differentiable-programming/docs/DifferentiableProgramming.md
 
