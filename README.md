@@ -17,24 +17,24 @@ You won't need to go beyond this quickstart section if everything here works.
 3. Once the `TFWorld2019` folder is in _your_ Google Drive:
     * Open whichever notebook(s) you want to work with by double clicking them, and then clicking "Google Colaboratory", as shown in the image below.
 
-    <br /><img src="presentation_images/open-in-colab.png" width=33% /><br />
+    <br /><img src="presentation_images/open-in-colab.png" width=50% /><br />
 
     * If you see the notebook as raw text, click the "Open with" dropdown at the top, and click "Google Colaboratory", or if you don't see Colab as an option, click "Connect more apps":
     
-    <br /><img src="presentation_images/open-with.jpeg" width=33% /><br />
+    <br /><img src="presentation_images/open-with.jpeg" width=50% /><br />
 
     * Then add "Google Colaboratory":
 
-    <br /><img src="presentation_images/connect-colab.jpeg" width=33% /><br />
+    <br /><img src="presentation_images/connect-colab.jpeg" width=50% /><br />
 
     * Then open it with Colab:
 
-    <br /><img src="presentation_images/open-with-installed-colab.jpeg" width=33% /><br />
+    <br /><img src="presentation_images/open-with-installed-colab.jpeg" width=50% /><br />
 
 
 4. Once your notebook is open, run it in Playground mode to allow cells to compile and run, as shown in the image below.
 
-    <br /><img src="presentation_images/open-in-playground.png" width=33% /><br />
+    <br /><img src="presentation_images/open-in-playground.png" width=50% /><br />
 
 
 ### To create a blank Swift notebook in Google Colab
