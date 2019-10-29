@@ -67,6 +67,19 @@ The Swift Models repository, from the TensorFlow team:
 
 * https://github.com/tensorflow/swift-models
 
+The Swift for TensorFlow Discussion Group:
+
+* https://groups.google.com/a/tensorflow.org/forum/#!forum/swift
+
+The Swift APIs for TensorFlow:
+
+* https://github.com/tensorflow/swift-apis
+
+The Differentiable Programming Proposal:
+
+* https://forums.swift.org/t/differentiable-programming-mega-proposal/28547
+* https://github.com/dan-zheng/swift/blob/differentiable-programming/docs/DifferentiableProgramming.md
+
 SwiftAI's (FastAI) high-level Swift ML API (very early):
 
 * https://github.com/fastai/swiftai
