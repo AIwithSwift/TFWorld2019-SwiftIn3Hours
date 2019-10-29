@@ -42,3 +42,23 @@ You won't need to go beyond this quickstart section if everything here works.
 Click on this link: [lab.to/s4tf_blank](http://lab.to/s4tf_blank)
 
 _You'll need to save and name the notebook once you've created it!_
+
+## Other useful resources
+
+Tutorials from the Swift for TensorFlow team:
+
+* Basic Swift: https://www.tensorflow.org/swift/tutorials/a_swift_tour
+* Protocol-oriented Programming and Generics: https://www.tensorflow.org/swift/tutorials/protocol_oriented_generics
+* Python interopability: https://www.tensorflow.org/swift/tutorials/python_interoperability
+* Model training: https://www.tensorflow.org/swift/tutorials/model_training_walkthrough
+* Custom differentiation: https://www.tensorflow.org/swift/tutorials/custom_differentiation
+* Raw TensorFlow operators: https://www.tensorflow.org/swift/tutorials/raw_tensorflow_operators
+
+SwiftAI's (FastAI) high-level Swift ML API (very early):
+
+* https://github.com/fastai/swiftai
+
+FastAI's lessons on Swift for Deep Learning:
+
+* Basics of Swift for Deep Learning: https://course.fast.ai/videos/?lesson=13
+* C interop; Protocols; Putting it all together: https://course.fast.ai/videos/?lesson=14
