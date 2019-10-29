@@ -7,6 +7,21 @@ THIS DOCUMENT IS FOR PRESENTERS NOT ATTENDEES
 3:00 PM to 3:30 PM (break)
 3:30 PM to 5:00 PM (90 minutes)
 
+## Activities 
+
+1. Make Sure Everything is Working
+2. SWIFT TBD
+3. SWIFT TBD
+4. Making a Basic XOR Model 
+5. Swift, meet Python
+6. Training a bigger model (GAN)
+7. Bringing it all together (Linear Regressor)
+
+### Extras
+
+1. Fahrenheit to Celsius
+2. Raw TensorFlow (very simple)
+
 # Timeline 
 * Welcome/introductions/setup (10 minutes)
 	- who are we
@@ -39,7 +54,7 @@ THIS DOCUMENT IS FOR PRESENTERS NOT ATTENDEES
 		- What is S4TF
 		- using Tensors
 		- Differentiable programming
-	- ACTIVITY:	Let's meet TensorFlow 
+	- ACTIVITY:	Hello TensorFlow 
 	
  _Break_ (approx)
 
