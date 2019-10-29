@@ -45,6 +45,15 @@ _You'll need to save and name the notebook once you've created it!_
 
 ## Other useful resources
 
+Why Swift for TensorFlow?
+
+* https://github.com/tensorflow/swift/blob/master/docs/WhySwiftForTensorFlow.md
+
+Swift tour and book:
+
+* Tour: https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html
+* Book: https://docs.swift.org/swift-book/
+
 Tutorials from the Swift for TensorFlow team:
 
 * Basic Swift: https://www.tensorflow.org/swift/tutorials/a_swift_tour
@@ -54,11 +63,38 @@ Tutorials from the Swift for TensorFlow team:
 * Custom differentiation: https://www.tensorflow.org/swift/tutorials/custom_differentiation
 * Raw TensorFlow operators: https://www.tensorflow.org/swift/tutorials/raw_tensorflow_operators
 
+The Swift Models repository, from the TensorFlow team:
+
+* https://github.com/tensorflow/swift-models
+
 SwiftAI's (FastAI) high-level Swift ML API (very early):
 
 * https://github.com/fastai/swiftai
 
+Why FastAI is embracing Swift for Deep Learning:
+
+* https://www.fast.ai/2019/03/06/fastai-swift/
+
 FastAI's lessons on Swift for Deep Learning:
 
 * Basics of Swift for Deep Learning: https://course.fast.ai/videos/?lesson=13
+    * Slides from this lesson: https://docs.google.com/presentation/d/1dc6o2o-uYGnJeCeyvgsgyk05dBMneArxdICW5vF75oU/edit#slide=id.p
 * C interop; Protocols; Putting it all together: https://course.fast.ai/videos/?lesson=14
+    * A participant's notes on this lesson: https://medium.com/@lankinen/fast-ai-lesson-14-notes-part-2-v3-be4667394295
+
+The FastAI forum:
+
+* https://forums.fast.ai/c/swiftai
+
+Skip the Foreign Function Interface (FFI), a talk from the LLVM/Apple team:
+
+* Slides: http://llvm.org/devmtg/2014-10/Slides/Skip%20the%20FFI.pdf
+* Video: http://llvm.org/devmtg/2014-10/Videos/Skip%20The%20FFI!%20Embedding%20Clang%20for%20C-720.mov
+
+Value SEMANTICS (not value types!) Talk:
+
+* https://academy.realm.io/posts/swift-gallagher-value-semantics/
+
+Facebook AI's paper on Tensor Comprehensions:
+
+* https://arxiv.org/pdf/1802.04730.pdf
