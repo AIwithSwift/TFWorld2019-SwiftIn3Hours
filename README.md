@@ -21,15 +21,15 @@ You won't need to go beyond this quickstart section if everything here works.
 
     * If you see the notebook as raw text, click the "Open with" dropdown at the top, and click "Google Colaboratory", or if you don't see Colab as an option, click "Connect more apps":
     
-    <img src="presentation_images/open-with.jpg" width=33% />
+    <img src="presentation_images/open-with.jpeg" width=33% />
 
     * Then add "Google Colaboratory":
 
-    <img src="presentation_images/connect-colab.jpg" width=33% />
+    <img src="presentation_images/connect-colab.jpeg" width=33% />
 
     * Then open it with Colab:
 
-    <img src="presentation_images/open-with-installed-colab.jpg" width=33% />
+    <img src="presentation_images/open-with-installed-colab.jpeg" width=33% />
 
 
 4. Once your notebook is open, run it in Playground mode to allow cells to compile and run, as shown in the image below.
