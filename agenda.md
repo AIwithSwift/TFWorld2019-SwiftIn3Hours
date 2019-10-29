@@ -28,14 +28,14 @@ Just in case we need more material:
 
 ** Paris starts**
 
-* Welcome/introductions/setup (10 minutes) (PARIS)
+* Welcome/introductions/setup (PARIS)
 	- who are we
 	- what's Swift
 	- you should have done all this setup <
 	- here's what we're gonna do today
 	- here's our focus/approach to teaching this
 
-* Introduction to the tools (5 minutes) (PARIS)
+* Introduction to the tools (5 minutes) (PARIS) 
 	- we're gonna use the Swift for TensorFlow toolchain, not Apple's Swift toolchain
 	- quick overview of Jupyter 
 	- quick overview of Google Colab
@@ -44,17 +44,13 @@ Just in case we need more material:
 
 ** switch to Mars **	
 
-* Swift Programming (~60 minutes) (Mars)
-	- ACTIVITY 2: Welcome to Swift
-	- ACTIVITY 3: Getting Familiar with Swift
+* Swift Programming (~60 minutes) (MARS)
 
-* Recap/summary of Swift Programming (5 minutes)
-	- what have we learned?
-	- what's next?
+* Protocols and Generics (TIM) (10-15 minutes)
 
-** switch to Tim **
+* Recap/summary of Swift Programming (TIM AND PARIS)
 
-* Swift for TensorFlow Basics (XOR) (Tim)
+* Swift for TensorFlow Basics (XOR) (TIM)
 	- creating a simple model for XOR
 		- giving it some data
 		- training it

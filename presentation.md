@@ -6,6 +6,12 @@ slidenumbers: true
 
 ---
 
+#[fit] 👋 Hello!
+
+^ Hello!
+
+---
+
 ![60%](presentation_images/team.png)
 
 ---
@@ -85,6 +91,13 @@ slidenumbers: true
 
 ---
 
+# See the Googlers...
+
+- 11:50 AM tomorrow
+- Great American Ballroom J/K
+
+---
+
 # **Swift (for programming)**
 
 ^ We're going to be teaching Swift, as a programming language, for the first bit of this tutorial. We're kind of just ignoring machine learning for this. It's important to learn Swift as a programming language before we move to Swift for TensorFlow.
@@ -100,6 +113,81 @@ slidenumbers: true
 ---
 
 # Let's go!
+
+---
+
+
+# Some Python...
+
+```python
+def collatz(n):
+    count = 0
+
+    while n > 1:
+        if n % 2 == 0:
+            n /= 2
+        else:
+            n = 3 * n + 1
+
+        count += 1
+    return count
+
+print(f"it took {collatz(9)} steps to resolve")
+```
+
+---
+
+# Some Swift...
+
+```swift
+func collatz(number: Int) -> Int {
+    var count = 0
+    var n = number
+    
+    while n > 1 {
+        if n % 2 == 0 {
+            n /= 2
+        } else {
+            n = 3 * n + 1
+        }
+        count += 1
+    }
+    return count
+}
+print("it took \(collatz(number: 9)) steps to resolve")
+```
+
+---
+
+|Python|Swift|
+|:---:|:---:|
+|35.27 seconds|0.88 seconds|
+
+^ py had a stddev of 2.6s
+swift had a stddev of 0.13s
+so a ~40x performance
+
+---
+
+|Python|Swift|C|
+|:---:|:---:|:---:|
+|35.27 seconds|0.88 seconds|0.0044 seconds|
+
+^ I was curious so I rewrote it in C
+knowing it would be faster
+and was then confused why C was THAT much faster
+
+---
+
+^ so instead of reinterpreting Swift each time I compiled it once and ran that
+so it is an apples to apples for Swift and C but not for poor Python
+Swift is winning here but I only did 100 tests no where NEAR enough and we are talking about 4 nanoseconds here
+worth saying this isn't a slight at Python, it was designed for writeability first
+
+|Python|Swift|C|Swift compiled|
+|:---:|:---:|:---:|:---:|
+|35.27 seconds|0.88 seconds|0.0044 seconds|0.0040 seconds|
+
 
 
 <!-- 
