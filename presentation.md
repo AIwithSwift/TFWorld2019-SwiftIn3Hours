@@ -22,6 +22,10 @@ slidenumbers: true
 
 ![100%](presentation_images/books.png)
 
+---
+
+![fit](presentation_images/booksold.png)
+
 
 ---
 
@@ -96,26 +100,21 @@ slidenumbers: true
 - 11:50 AM tomorrow
 - Great American Ballroom J/K
 
----
-
-# **Swift (for programming)**
-
-^ We're going to be teaching Swift, as a programming language, for the first bit of this tutorial. We're kind of just ignoring machine learning for this. It's important to learn Swift as a programming language before we move to Swift for TensorFlow.
+![right 20%](presentation_images/Tensorflow_logo.png)
 
 ---
 
-# Setup
+# Why?
 
-- Go to this URL:
-
-    https://lab.to/s4tf_tfworld2019
+- performance!
+- safety
+- ease of reading
+- fun
+- looks kind of like Python most of the time
+- performance
+- performance
 
 ---
-
-# Let's go!
-
----
-
 
 # Some Python...
 
@@ -188,6 +187,21 @@ worth saying this isn't a slight at Python, it was designed for writeability fir
 |:---:|:---:|:---:|:---:|
 |35.27 seconds|0.88 seconds|0.0044 seconds|0.0040 seconds|
 
+
+---
+
+# **Swift (for programming)**
+
+^ We're going to be teaching Swift, as a programming language, for the first bit of this tutorial. We're kind of just ignoring machine learning for this. It's important to learn Swift as a programming language before we move to Swift for TensorFlow.
+
+---
+
+# Let's go!
+## Setup
+
+- Go to this URL:
+
+    https://lab.to/s4tf_tfworld2019
 
 
 <!-- 
